@@ -29,3 +29,8 @@ Progress
 I will update this repository as I learn new concepts, complete exercises, and work on projects.
 
 This is a work in progress
+## Class Notes & Documentation
+
+My cybersecurity training notes and learning records.
+
+- [Cybersecurity Fundamentals – 14 November 2026](08-notes-and-documentation/2026-11-14-cybersecurity-fundamentals.md)
