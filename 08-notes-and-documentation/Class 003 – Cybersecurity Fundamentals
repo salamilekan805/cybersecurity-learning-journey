@@ -1,0 +1,179 @@
+
+## 1. The Four Parts of a Cyberattack
+
+A cyberattack can be understood through four important parts:
+
+1. **Threat Actor:** The person or group responsible for carrying out an attack.
+2. **Vulnerability:** A weakness that an attacker can exploit. This could be a technical weakness or a lack of employee awareness.
+3. **Pathway/Delivery:** The method used to reach the target, such as a phishing email.
+4. **Mechanism/Action:** What happens after the attacker gains access, such as stealing information or deploying ransomware.
+
+## 2. Common Cybersecurity Threats
+
+- **Unauthorized Access:** Accessing a system or information without permission.
+- **System Design Error:** A weakness introduced during the design or development of a system.
+- **DoS (Denial of Service):** Overwhelming a service with traffic so legitimate users cannot access it.
+- **DDoS (Distributed Denial of Service):** Similar to DoS, but the traffic comes from multiple sources.
+- **Botnet:** A collection of compromised devices controlled by an attacker and used for coordinated malicious activities.
+- **Malware:** Software designed to harm systems, steal information or perform unauthorized activities.
+- **Worm:** A type of malware that can spread between devices or systems.
+
+Possible signs of malware or compromised devices include unusual system activity, unexpected windows, slow performance and unusual outgoing messages. These signs are not proof of infection on their own.
+
+## 3. Phishing and Social Engineering
+
+**Phishing:** A social engineering technique that uses deceptive messages, commonly emails, to trick people into revealing information or clicking harmful links.
+
+**Vishing:** Voice phishing. Attackers use deceptive phone calls to manipulate people into revealing sensitive information.
+
+**Social Engineering:** Manipulating human trust, emotions or behaviour to obtain information or access.
+
+**Important lesson:** Attackers can target people instead of directly exploiting technical weaknesses.
+
+## 4. Identifying Red Flags in a Phishing Email
+
+Class exercise: Identify seven red flags in a phishing email.
+
+Common warning signs include:
+
+1. Suspicious sender address.
+2. Spelling and grammatical mistakes.
+3. Urgent or threatening language.
+4. Unexpected attachments.
+5. Suspicious links.
+6. Requests for passwords or sensitive information.
+7. Messages pretending to come from trusted organizations.
+
+**Note:** These are common examples. The exact seven red flags depend on the email shown in class.
+
+## 5. Risk Management in Cybersecurity
+
+Risk management is the continuous process of identifying, assessing and responding to risks to protect an organization's assets and information.
+
+**Risk:** The potential for loss or damage when a threat exploits a vulnerability.
+
+### The Risk Management Process
+
+1. **Risk Identification:** Finding possible threats and vulnerabilities.
+2. **Risk Assessment:** Determining how likely a risk is and how much damage it could cause.
+3. **Risk Treatment:** Choosing an appropriate strategy to handle the identified risk.
+
+## 6. Four Risk Management Strategies
+
+1. **Risk Avoidance:** Eliminating the risk by stopping the activity that causes it.
+2. **Risk Mitigation:** Taking steps to reduce the likelihood or impact of a risk.
+3. **Risk Transfer:** Shifting some or all of the financial impact of a risk to a third party, such as through insurance.
+4. **Risk Acceptance:** Knowingly choosing to live with a risk and take no further action.
+
+## 7. Risk Levels and Assessment
+
+| Risk Level | Impact | Likelihood | Priority |
+|---|---|---|---|
+| High | Severe | Likely | Immediate action |
+| Medium | Moderate | Possible | Plan required |
+| Low | Minimal | Unlikely | Monitor |
+
+Risk assessment helps organizations decide which risks need attention first.
+
+## 8. Practical Risk Assessment Exercise
+
+**Scenario:** An online shop accepts customer payments through its website. The website does not use HTTPS, meaning card details may be transmitted without proper encryption. Cyber attackers are targeting online shops in that industry.
+
+### Step 1: Identify the Risk
+
+- **Asset:** Customer card details.
+- **Threat:** Fraudsters and cyber attackers.
+- **Vulnerability:** No HTTPS protection.
+- **Risk:** Card details could be intercepted and stolen.
+
+### Step 2: Assess Likelihood
+
+- Are online shops being targeted? Yes.
+- Is the information vulnerable during transmission? Yes.
+
+**Likelihood: HIGH**
+
+### Step 3: Assess Impact
+
+- Could customer card details be exposed? Yes.
+- Could the company face financial or legal consequences? Yes.
+- Could customers lose trust in the shop? Yes.
+
+**Impact: HIGH**
+
+### Step 4: Calculate the Risk Level
+
+Risk = Likelihood × Impact
+
+HIGH × HIGH = **HIGH RISK**
+
+### Risk Management Recommendations
+
+- Implement HTTPS using a valid TLS certificate.
+- Use a trusted payment provider.
+- Avoid handling sensitive card details unnecessarily.
+- Monitor for suspicious transactions.
+
+**Important:** HTTPS protects information while it travels between a browser and a website. It does not guarantee that the entire website is secure.
+
+## 9. Career Paths in Cybersecurity
+
+### A. Red Team – Penetration Tester
+
+Penetration testers legally simulate attacks to identify vulnerabilities before malicious attackers can exploit them.
+
+**Example practical scenario:**
+
+- Target: A company's web application login page.
+- Finding: Weak password policy, such as an easily guessed default password.
+- Simulated test: An authorized password-security assessment.
+- Action: Document the vulnerability and report it to the security team.
+- Outcome: The company improves its password policy.
+
+**Important:** Penetration testing must always have proper authorization and an agreed scope.
+
+### B. Governance, Risk and Compliance (GRC) Analyst
+
+GRC analysts help organizations follow security laws, standards, policies and best practices.
+
+**Example practical scenario:**
+
+- Identified risk: Employees using personal USB drives.
+- Threat: Malware entering company systems.
+- Action: Introduce USB control policies and staff awareness training.
+- Outcome: Reduced malware risks and improved compliance.
+
+### C. Blue Team – Security Operations Center (SOC) Analyst
+
+SOC analysts monitor systems and networks for suspicious activity, investigate alerts and respond to security incidents.
+
+**Example practical scenario:**
+
+- Detected: A ransomware alert.
+- Affected: Five employee workstations.
+- Action: Isolate the affected network segment and begin the incident response process.
+- Outcome: The threat is contained and systems are restored from backups.
+
+## 10. Ethics in Cybersecurity
+
+Cybersecurity professionals must follow ethical and legal standards.
+
+1. **Confidentiality:** Never share sensitive information accessed during your work.
+2. **Responsible Disclosure:** Report vulnerabilities to the owner first and allow reasonable time for a fix before public disclosure.
+3. **Legal Boundaries:** Always obtain permission before testing systems.
+4. **Do No Harm:** Protect systems and minimize disruption during authorized testing.
+5. **Accountability:** Take responsibility for your actions and keep records of your work.
+6. **Scope Respect:** Test only the systems, methods and timeframes that have been authorized.
+7. **Privacy:** Respect personal information and collect only what is necessary.
+8. **Professional Standards:** Follow recognized professional codes of ethics, such as those from ISC2 and EC-Council.
+
+## 11. Key Lessons from Class 003
+
+- Cyberattacks can target both people and technology.
+- Human error and lack of awareness can create security vulnerabilities.
+- Risk management helps organizations identify and prioritize security problems.
+- Different cybersecurity professionals have different responsibilities.
+- Ethical conduct and authorization are essential in cybersecurity.
+- Protecting information requires continuous monitoring, assessment and improvement.
+
+**End of Class 003 Notes**
